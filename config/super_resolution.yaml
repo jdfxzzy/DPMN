@@ -1,0 +1,52 @@
+MODEL:
+
+
+TRAIN:
+  train_data_dir: [
+    '/root/data1/datasets/TextZoom/train1',
+    '/root/data1/datasets/TextZoom/train2'
+  ]
+  batch_size: 1024
+  width: 128
+  height: 32
+  epochs: 42000
+  cuda: True
+  ngpu: 1
+  workers: 16
+  resume: ''
+  ckpt_dir: './ckpt'
+  voc_type: 'all'                                    # 'digits lower upper all'
+  saveInterval: 20
+  displayInterval: 20                                 # display loss
+  adadelta: False
+  lr: 0.001
+  optimizer: "Adam"
+  beta1: 0.5
+  manualSeed: 2
+  max_len: 100
+  keep_ratio: False
+  down_sample_scale: 2
+
+  VAL:
+    val_data_dir: [
+      '/root/data1/datasets/TextZoom/test/easy',
+      '/root/data1/datasets/TextZoom/test/medium',
+      '/root/data1/datasets/TextZoom/test/hard'
+    ]
+    n_vis: 10
+    vis_dir: '/root/data1/DPMN/vis'
+    valInterval: 80                                     # -1, val at the end of epoch
+    rec_pretrained: '/root/data1/recognizers/aster.pth.tar'
+    moran_pretrained: '/root/data1/recognizers/moran.pth'
+    crnn_pretrained: '/root/data1/recognizers/crnn.pth'
+    visionlan_pretrained: '/root/data1/recognizers/visionlan.pth'
+
+TEST:
+  checkpoint: ''
+  test_data_dir: [
+  ]
+
+CONVERT:
+  image_dir:
+  lmdb_dir:
+  n_convert: 10

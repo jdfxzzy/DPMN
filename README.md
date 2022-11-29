@@ -1,4 +1,4 @@
-## Improving Scene Text Image Super-Resolution via Dual Prior Modulation Network
+## Improving Scene Text Image Super-Resolution via Dual Prior Modulation Network (AAAI 2023)
 
 *Shipeng Zhu, Zuoyan Zhao, Pengfei Fang, [Hui Xue](http://palm.seu.edu.cn/hxue/)*
 

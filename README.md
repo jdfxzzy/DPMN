@@ -66,9 +66,16 @@ Other possible Python packages like PyYAML, pygame, Pillow and imgaug are also n
 ## Acknowledgement
 
 - We inherited most of the frameworks from [TATT](https://github.com/mjq11302010044/TATT) and use the pre-trained [ASTER](https://github.com/ayumiymk/aster.pytorch), [CRNN](https://github.com/meijieru/crnn.pytorch), [MORAN](https://github.com/Canjie-Luo/MORAN_v2) and [VisionLAN](https://github.com/wangyuxin87/VisionLAN) model for recognition. Thank you for your contribution!
-- Some of our code are modified from [DW-ViT](https://github.com/pzhren/DW-ViT), [MMFL](https://github.com/pzhren/DW-ViT) and [SRNet-Datagen](https://github.com/youdao-ai/SRNet-Datagen). Thank you for your contribution!
+- Some of our code are modified from [DW-ViT](https://github.com/pzhren/DW-ViT), [MMFL](https://github.com/AliceQLin/MMFL-Inpainting) and [SRNet-Datagen](https://github.com/youdao-ai/SRNet-Datagen). Thank you for your contribution!
 - Thank you to the author of TBSRN, TG and TATT for making their code and pre-trained weights public.
 
 ## Citation
 
-Will be made available soon.
+```
+@article{zhu2022improving,
+  title={Improving Scene Text Image Super-Resolution via Dual Prior Modulation Network},
+  author={Shipeng Zhu and Zuoyan Zhao and Pengfei Fang and Hui Xue},
+  journal={arXiv preprint arXiv:2302.10414},
+  year={2023}
+}
+```

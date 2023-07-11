@@ -72,10 +72,11 @@ Other possible Python packages like PyYAML, pygame, Pillow and imgaug are also n
 ## Citation
 
 ```
-@article{zhu2022improving,
+@inproceedings{zhu2023improving,
   title={Improving Scene Text Image Super-Resolution via Dual Prior Modulation Network},
   author={Shipeng Zhu and Zuoyan Zhao and Pengfei Fang and Hui Xue},
-  journal={arXiv preprint arXiv:2302.10414},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  pages={3843--3851},
   year={2023}
 }
 ```

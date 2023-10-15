@@ -49,9 +49,15 @@ Other possible Python packages like PyYAML, pygame, Pillow and imgaug are also n
   - For simplicity, we use the notation TATT-ASTER to represent the best TATT model selected by ASTER. TATT-CRNN, TATT-MORAN, etc. are also similar.
   - Based on the requirement above, we need 15 PSNs and then use ASTER, CRNN and MORAN respectively to train our DPMN. Among these PSNs, TSRN-ASTER is provided by [@yustiks](https://github.com/yustiks), as you can see in [this issue](https://github.com/JasonBoy1/TextZoom/issues/8#issuecomment-767552860). [TBSRN-CRNN](https://github.com/FudanVI/FudanOCR/tree/main/scene-text-telescope), [TG-CRNN](https://github.com/FudanVI/FudanOCR/tree/main/text-gestalt) and [TATT-ASTER](https://github.com/mjq11302010044/TATT) are provided by their authors respectively, you can download them from the corresponding github repository. Other PSNs are our trained version.
 - Considering that TATT is the SOTA STISR method with open source code when we submit our paper to AAAI, we release our implemented DPMN for TATT-ASTER, TATT-CRNN and TATT-MORAN now to guarantee reproducibility. You can download them from the following links. Our zip file also contains the corresponding PSN and script for testing. However, as is mentioned above, TATT-ASTER is NOT our implemented version and its author didn't made it  public. So we didn't provided the pre-trained weight of TATT-ASTER in our zip file according to our promise to its author. If you really need this model, please follow [this issue](https://github.com/mjq11302010044/TATT/issues/4#issuecomment-1100872209).
-  - DPMN with TATT-ASTER as PSN: https://pan.baidu.com/s/1grBb_RlR1QMCgs54dW4bfw, password: jtei.
-  - DPMN with TATT-CRNN as PSN: https://pan.baidu.com/s/1e0Qiq21vNH0Xq2kLkwQuig, password: 8r6g.
-  - DPMN with TATT-MORAN as PSN: https://pan.baidu.com/s/1ch_UHrupjuCs5eaiWfE02Q, password: 8hrz.
+  - DPMN with TATT-ASTER as PSN:
+       - Baidu Netdisk: https://pan.baidu.com/s/1grBb_RlR1QMCgs54dW4bfw, password: jtei.
+       - Google Drive: https://drive.google.com/file/d/1keM__l4aj26b24pq85UPkUKhZjS6hdXq/view?usp=sharing
+  - DPMN with TATT-CRNN as PSN:
+       - Baidu Netdisk: https://pan.baidu.com/s/1e0Qiq21vNH0Xq2kLkwQuig, password: 8r6g.
+       - Google Drive: https://drive.google.com/file/d/1226-SZ6YAsZh_a5-5GmGEvQn51ntDskj/view?usp=sharing
+  - DPMN with TATT-MORAN as PSN:
+       - Baidu Netdisk: https://pan.baidu.com/s/1ch_UHrupjuCs5eaiWfE02Q, password: 8hrz.
+       - Google Drive: https://drive.google.com/file/d/1K23n0xuzLhbsKxOLzBmzA9tDXWs2q5it/view?usp=sharing
 
 ## Frequently Asked Questions
 

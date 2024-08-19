@@ -2,7 +2,7 @@
 
 *[Shipeng Zhu](http://palm.seu.edu.cn/homepage/zhushipeng/demo/index.html), [Zuoyan Zhao](http://palm.seu.edu.cn/homepage/zhaozuoyan/index.html), [Pengfei Fang](https://fpfcjdsg.github.io/), [Hui Xue](http://palm.seu.edu.cn/hxue/)*
 
-This repository offers the official Pytorch code for this paper. If you have any question, feel free to contact Shipeng Zhu ([shipengzhu@seu.edu.cn](mailto:shipengzhu@seu.edu.cn)) or Zuoyan Zhao ([zuoyanzhao@seu.edu.cn](mailto:zuoyanzhao@seu.edu.cn)).
+This repository offers the official Pytorch code for this paper. If you have any question, feel free to contact Zuoyan Zhao ([zuoyanzhao@seu.edu.cn](mailto:zuoyanzhao@seu.edu.cn)).
 
 ## Environment
 

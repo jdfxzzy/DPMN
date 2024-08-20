@@ -4,6 +4,9 @@
 
 This repository offers the official Pytorch code for this paper. If you have any question, feel free to contact Zuoyan Zhao ([zuoyanzhao@seu.edu.cn](mailto:zuoyanzhao@seu.edu.cn)).
 
+## News
+[2024.08.20] My new work on Scene Text Image Super-Resolution (STISR) has been accepted by ACMMM 2024. Now full paper and code are available! [[Paper]](https://arxiv.org/abs/2311.17955) [[Code]](https://github.com/jdfxzzy/PEAN)
+
 ## Environment
 
 ![python](https://img.shields.io/badge/Python-v3.6-green.svg?style=plastic)  ![pytorch](https://img.shields.io/badge/Pytorch-v1.10-green.svg?style=plastic)  ![cuda](https://img.shields.io/badge/Cuda-v11.3-green.svg?style=plastic)  ![numpy](https://img.shields.io/badge/Numpy-v1.19-green.svg?style=plastic)
@@ -19,9 +22,9 @@ Other possible Python packages like PyYAML, pygame, Pillow and imgaug are also n
   - MORAN: https://github.com/Canjie-Luo/MORAN_v2.
   - VisionLAN: https://github.com/wangyuxin87/VisionLAN.
 - **Notes:** 
-  - It is necessary for you to modify the */config/super_resolution.yaml* file according to your path of dataset and recognizers.
+  - It is necessary for you to modify the *./config/super_resolution.yaml* file according to your path of dataset and recognizers.
   - If you use 3 VisionLANs to generate the graphic recognition results, please duplicate the pre-trained VisionLAN model for 3 times and rename them as *recognizer_best_0.pth*, *recognizer_best_1.pth*, *recognizer_best_2.pth* respectively. If you use other recognizers, please follow the same step.
-  - It is also necessary for you to modify the */model/VisionLAN/cfgs/cfgs_eval.py* file according to your path of *dic_36.txt*, which is the dictionary of VisionLAN.
+  - It is also necessary for you to modify the *./model/VisionLAN/cfgs/cfgs_eval.py* file according to your path of *dic_36.txt*, which is the dictionary of VisionLAN.
 
 ## Training and Testing the Model
 
